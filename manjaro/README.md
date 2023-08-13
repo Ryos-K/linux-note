@@ -48,7 +48,26 @@ XMODIFIERS='@im=fcitx5'
 yay -S google-chrome
 ```
 
+### Font
+
 ## 開発環境
+
+### git
+
+- ssh
+
+```sh
+cd ~/.ssh
+ssh-keygen -t rsa
+cat id_rsa.pub
+```
+
+- config
+
+```sh
+git config --global user.email "example@email.com"
+git config --global user.name  "name"
+```
 
 ### Terminal
 
@@ -58,14 +77,28 @@ yay -S google-chrome
 
 ### Intellij Idea
 
-## ランタイム
+### 言語
 
-### Java
+#### Java / Kotlin / Scala
 
-### Python
+- sdkman!
 
-### Rust
+```
+curl "https://get.sdkman.io" | bash
+```
 
-## Font
+- java / kotlin / scala
+
+```
+sdk install java 17.0.7-tem
+sdk install kotlin
+sdk install scala
+```
+
+#### Python
+
+#### Rust
+
+
 
 
