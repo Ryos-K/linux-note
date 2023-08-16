@@ -50,6 +50,15 @@ yay -S google-chrome
 
 ### Font
 
+- PlemolJP
+
+[https://github.com/yuru7/PlemolJP/releases]
+
+```sh
+unzip Downloads/PlemolJP_NF_vX.Y.Z
+sudo mv PlemolJP_NF_vX.Y.Z /usr/share/fonts/PlemolJP_NF
+```
+
 ## 開発環境
 
 ### git
@@ -71,7 +80,11 @@ git config --global user.name  "name"
 
 ### Terminal
 
-### Vscode
+```sh
+sudo pacman -S guake
+```
+
+### VScode
 
 ### Android Studio
 
