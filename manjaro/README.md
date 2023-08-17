@@ -86,6 +86,10 @@ sudo pacman -S guake
 
 ### VScode
 
+```sh
+yay -S visual-studio-code-bin
+```
+
 ### Android Studio
 
 ### Intellij Idea
