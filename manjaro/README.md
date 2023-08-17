@@ -95,13 +95,18 @@ yay -S visual-studio-code-bin
 [https://developer.android.com/studio]
 
 ```sh
-tar -xf Downloads/android-studio-XXXX.X.X.X-linux.tar.gz
-sudo mv android-studio /opt/
-cd /opt/android-studio/bin
-./studio.sh
+sudo tar -xzf Downloads/android-studio-*-linux.tar.gz -C /opt
+/opt/android-studio/bin/studio.sh
 ```
 
 ### Intellij Idea
+
+[https://www.jetbrains.com/idea/download/download-thanks.html?platform=linux]
+
+```sh
+sudo tar -xzf -xzf Downloads/ideaIU-*.tar.gz -C /opt
+/opt/idea-IU-*/bin/idea.sh
+```
 
 ### 言語
 
