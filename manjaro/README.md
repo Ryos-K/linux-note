@@ -92,6 +92,15 @@ yay -S visual-studio-code-bin
 
 ### Android Studio
 
+[https://developer.android.com/studio]
+
+```sh
+tar -xf Downloads/android-studio-XXXX.X.X.X-linux.tar.gz
+sudo mv android-studio /opt/
+cd /opt/android-studio/bin
+./studio.sh
+```
+
 ### Intellij Idea
 
 ### 言語
