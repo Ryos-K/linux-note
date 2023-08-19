@@ -59,6 +59,15 @@ unzip Downloads/PlemolJP_NF_vX.Y.Z
 sudo mv PlemolJP_NF_vX.Y.Z /usr/share/fonts/PlemolJP_NF
 ```
 
+### Shortcut
+
+```sh
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down  "['<Super><Shift>Page_Down']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super><Shift>Page_Down']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up  "['<Super><Shift>Page_Up']"
+```
+
 ## 開発環境
 
 ### git
