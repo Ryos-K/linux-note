@@ -108,6 +108,12 @@ sudo tar -xzf Downloads/android-studio-*-linux.tar.gz -C /opt
 /opt/android-studio/bin/studio.sh
 ```
 
+- USB Debug
+
+```sh
+sudo pacman -Syu android-udev android-tools
+```
+
 ### Intellij Idea
 
 [https://www.jetbrains.com/idea/download/download-thanks.html?platform=linux]
