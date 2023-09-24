@@ -61,11 +61,19 @@ sudo mv PlemolJP_NF_vX.Y.Z /usr/share/fonts/PlemolJP_NF
 
 ### Shortcut
 
+ショートカットがエディタと重複しないようにする
+
 ```sh
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down  "['<Super><Shift>Page_Down']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super><Shift>Page_Down']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up  "['<Super><Shift>Page_Up']"
+```
+
+Ctrl と Capslock を入れ替える
+
+```sh
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swapcaps']"
 ```
 
 ## 開発環境
