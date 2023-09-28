@@ -76,6 +76,12 @@ git config --global user.email "example@email.com"
 git config --global user.name  "name"
 ```
 
+### curl
+
+```sh
+sudo apt install curl
+```
+
 ### Terminal
 
 ```sh
@@ -91,4 +97,23 @@ sudo tar -xzf Downloads/jetbrains-toolbox-*.tar.gz -C /opt
 sudo apt install libfuse2
 /opt/jetbrain-toolbox*/jetbrain-toolbox
 ```
+
+### 言語
+
+#### Java / Kotlin / Scala
+
+- sdkman!
+
+```
+curl "https://get.sdkman.io" | bash
+```
+
+- java / kotlin / scala
+
+```
+sdk install java 17.0.7-tem
+sdk install kotlin
+sdk install scala
+``` 
+
 
