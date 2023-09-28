@@ -18,6 +18,10 @@ sudo apt update && sudo apt upgrade
 sudo apt install fcitx5-mozc
 ```
 
+```sh
+sudo localectl set-locale LANG=C
+```
+
 ```.zshenv
 #input method module setting
 GTK_IM_MODULE="fcitx5"
