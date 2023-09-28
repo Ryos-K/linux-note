@@ -1,6 +1,6 @@
 # ubuntu-note
 
-Ubuntu に関するメモ
+Ubuntu 2022 に関するメモ
 
 ## 初期設定
 
@@ -56,3 +56,39 @@ Capslock を Ctrl にする
 ```sh
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 ```
+
+## 開発環境
+
+### git
+
+- ssh
+
+```sh
+cd ~/.ssh
+ssh-keygen -t rsa
+cat id_rsa.pub
+```
+
+- config
+
+```sh
+git config --global user.email "example@email.com"
+git config --global user.name  "name"
+```
+
+### Terminal
+
+```sh
+sudo apt install guake
+```
+
+### jetbrain-toolbox
+
+[https://www.jetbrains.com/help/idea/installation-guide.html#toolbox]
+
+```sh
+sudo tar -xzf Downloads/jetbrains-toolbox-*.tar.gz -C /opt
+sudo apt install libfuse2
+/opt/jetbrain-toolbox*/jetbrain-toolbox
+```
+
