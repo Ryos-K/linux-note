@@ -57,6 +57,12 @@ Capslock を Ctrl にする
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 ```
 
+US キーボード用に switch-group を無効にする
+
+```sh
+gsettings set org.gnome.desktop.wm.keybindings switch-group "['<Super>Above_Tab']"
+```
+
 ## 開発環境
 
 ### git
