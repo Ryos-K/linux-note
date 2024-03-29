@@ -94,6 +94,14 @@ sudo apt install curl
 sudo apt install guake
 ```
 
+### zsh
+
+```sh
+sudo apt install zsh
+```
+
+[https://github.com/sorin-ionescu/prezto]
+
 ### jetbrain-toolbox
 
 [https://www.jetbrains.com/help/idea/installation-guide.html#toolbox]
