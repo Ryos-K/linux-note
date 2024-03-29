@@ -16,10 +16,11 @@ sudo apt update && sudo apt upgrade
 
 ```sh
 sudo apt install fcitx5-mozc
+fcitx5-configtool
 ```
 
 ```sh
-sudo localectl set-locale LANG=C
+sudo localectl set-locale LANG=C.utf8
 ```
 
 ```.zshenv
